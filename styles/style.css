@@ -1,0 +1,46 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+
+
+.logo{width: 60px;
+height: 50px;
+border-radius: 30px;}
+
+.logo-title{
+    font-size: 30px;
+}
+
+.logo-ext{
+    font-size: 20px;
+}
+.nav-bg{
+    background-image: linear-gradient(120deg,#ec6f66 , #f3a183 );
+    border-radius: 10px;
+}
+.color,
+.logo-color{
+    color: white!important;
+}
+.landing-page{
+    background-image: linear-gradient(120deg,#ee9ca7 , #ffdde1);
+    height: 460px;
+}
+.slider-info{
+    padding-left: 80px;
+}
+.slider-img img{width: 85%;
+height: 80%;}
+
+
+
+@media (max-width:768px) {
+  .landing-page{height: 700px;} 
+ .slider-img{
+     display: flex;
+     justify-content: center;
+ }
+}
+
